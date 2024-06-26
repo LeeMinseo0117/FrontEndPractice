@@ -1,0 +1,26 @@
+div {
+  width: 200px;
+  height: 200px;
+  animation: move 5s infinite linear;
+}
+@keyframes move {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+    transform: translateX(300px);
+  }
+
+  50% {
+    background-color: blue;
+    transform: translate(300px, 300px);
+  }
+  75% {
+    background-color: green;
+    transform: translateY(300px);
+  }
+  100% {
+    background-color: red;
+  }
+}
