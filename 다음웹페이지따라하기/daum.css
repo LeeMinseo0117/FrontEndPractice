@@ -1,0 +1,48 @@
+* {
+  border: 1px solid black;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+.left section {
+  border-radius: 5px;
+}
+.right section {
+  border-radius: 5px;
+}
+
+header {
+  height: 20vh;
+}
+
+main {
+  height: 80wh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+.left {
+  position: relative;
+}
+.ad {
+  position: absolute;
+  height: 100px;
+  position: relative;
+}
+.ad div {
+  position: absolute;
+  background-color: #eee;
+  left: 50%;
+  width: 80%;
+  height: 60px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrap {
+}
+footer {
+  height: 20vh;
+}
